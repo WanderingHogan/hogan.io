@@ -162,7 +162,8 @@
     margin: 1em 0 0;
 }
 
-@media (max-width: 1281px) {
+/*@media (max-width: 1281px) {*/
+@media (pointer:coarse), (hover:none), (hover:on-demand) {
 	.masonry-list li {
 	    float: left;
 	    height: 100%;
