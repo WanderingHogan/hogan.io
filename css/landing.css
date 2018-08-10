@@ -195,6 +195,10 @@
 	.socialButtons {
 		font-size: 60px !important;
 	}
+
+	.footer {
+		display: none;
+	}
 }
 
 
@@ -263,3 +267,16 @@ a {
 	color: #4078c0
 }
 
+.footer {
+	background-color: white;
+	position: fixed;
+	bottom: 0;
+	padding: 5px;
+	width: 100%;
+	left: 0;
+}
+
+.footer a {
+	color: blue;
+	text-decoration: underline;
+}
