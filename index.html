@@ -1,95 +1,139 @@
 <!doctype html>
 <html lang="en">
-  <head>
-      <meta http-equiv="content-language" content="en" />
-      <meta http-equiv="content-type" content="text/html; charset=utf-8">
-      <title>hogan.io</title>
-      <link rel="stylesheet" type="text/css" href="css/landing.css">
-      <script type="text/javascript" charset="utf-8" src="js/style.js"></script>
-  </head>
 
-  <body onresize="setStyle()" onload="setStyle()">
-      <ul class="masonry-list">
-          <li class="tile-case">
-              <a href="#">
-                  <div class="tile-primary-content">
-                      <h2>Chris Hogan</h2>
-                  </div>
-                  <div class="tile-secondary-content">
-                      <h2>Chris Hogan</h2>
-                      <p>Software Developer,</br>
-                         Geographer,</br>
-                         Crypto Fan</p>
-                  </div>
-                  <img src="assets/chris.jpg" alt="Chris!" class="tileImage">
-              </a>
-          </li>
-          <li class="tile-case">
-              <a href="#">
-                  <div class="tile-primary-content">
-                      <h2>Emily Hogan</h2>
-                  </div>
-                  <div class="tile-secondary-content">
-                      <h2>Emily Hogan</h2>
-                      <p>Architect,</br>
-                         Writer,</br>
-                         Painter</p>
-                  </div>
-                  <img src="assets/emily.jpg" alt="Emily!" class="tileImage">
-              </a>
-          </li>
-          <li class="tile-case">
-              <a href="#">
-                  <div class="tile-primary-content">
-                      <h2>Diego</h2>
-                  </div>
-                  <div class="tile-secondary-content">
-                      <h2>Diego</h2>
-                      <p>Orange Cat,</br>
-                         Nap Engineer</p>
-                  </div>
-                  <img src="assets/diego.jpg" alt="Diego" class="tileImage">
-              </a>
-          </li>
-          <li class="tile-case">
-              <a href="#">
-                  <div class="tile-primary-content">
-                      <h2 style="color: black">Sasha</h2>
-                  </div>
-                  <div class="tile-secondary-content">
-                      <h2>Sasha</h2>
-                      <p>Shy Dog,</br>
-                         Expert 'Good Girl'</p>
-                  </div>
-                  <img src="assets/sasha.jpg" alt="Sasha" class="tileImage">
-              </a>
-          </li>
-          <li class="tile-case">
-              <a href="#">
-                  <div class="tile-primary-content">
-                      <h2>Colorado</h2>
-                  </div>
-                  <div class="tile-secondary-content">
-                      <h2>Colorado</h2>
-                      <p>Photos from from wandering around our new state</p>
-                  </div>
-                  <img src="assets/colorado.jpg" alt="Wandering around the West" class="tileImage">
-              </a>
-          </li>
-          <li class="tile-case">
-              <a href="#">
-                  <div class="tile-primary-content">
-                      <h2>Maryland</h2>
-                  </div>
-                  <div class="tile-secondary-content">
-                      <h2>Maryland</h2>
-                      <p>Photos from Maryland and DC</p>
-                  </div>
-                  <img src="assets/maryland.jpg" alt="Where we are from" class="tileImage">
-              </a>
-          </li>
-      </ul>
-      <!-- <div class="footer">Style adapted from a codepen written by <a href="https://codepen.io/chrisgrabinski/pen/gpqtc" target="_blank">Christopher Grabiński</a> | Hosted in <a href="https://ipfs.io" target="_blank">IPFS</a> | 2018</div> -->
-  </body>
+<head>
+    <meta http-equiv="content-language" content="en" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>hogan.io</title>
+    <link rel="stylesheet" type="text/css" href="lib/fontawesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/landing.css">
+    <script type="text/javascript" charset="utf-8" src="js/style.js"></script>
+</head>
+
+<body onresize="setStyle()" onload="setStyle()">
+    <ul class="masonry-list">
+        <li class="tile-case">
+            <div class="subGroup">
+                <div class="tile-primary-content">
+                    <h2>Chris Hogan</h2>
+                </div>
+                <div class="tile-secondary-content">
+                    <h2>Chris Hogan</h2>
+                    <p>Software Developer,</br>
+                        Geographer,</br>
+                        Crypto Fan</p>
+                    <div class="socialButtons">
+                        <a href="https://twitter.com/wanderinghogan" target="">
+                          <i class="fab fa-twitter-square"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/wanderinghogan" target="">
+                          <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://instagram.com/wanderinghogan" target="">
+                          <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://github.com/wanderinghogan" target="">
+                          <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <img src="assets/chris.jpg" alt="Chris!" class="tileImage">
+            </div>
+        </li>
+        <li class="tile-case">
+            <div class="subGroup">
+                <div class="tile-primary-content">
+                    <h2>Emily Hogan</h2>
+                </div>
+                <div class="tile-secondary-content">
+                    <h2>Emily Hogan</h2>
+                    <p>Architect,</br>
+                        Writer,</br>
+                        Painter</p>
+                    <div class="socialButtons">
+                        <a href="https://linkedin.com/in/emily-childs-4ba47415" target="">
+                          <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://instagram.com/em8752" target="">
+                          <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <img src="assets/emily.jpg" alt="Emily!" class="tileImage">
+            </div>
+        </li>
+        <li class="tile-case">
+            <div class="subGroup">
+                <div class="tile-primary-content">
+                    <h2>Diego</h2>
+                </div>
+                <div class="tile-secondary-content">
+                    <h2>Diego</h2>
+                    <p>Orange Cat,</br>
+                        Nap Engineer</p>
+                    <div class="socialButtons">
+                        <a href="https://photos.app.goo.gl/eSrUbSF782CGRRqZA" target="_blank">
+                          <i class="far fa-image"></i>
+                        </a>
+                    </div>
+                </div>
+                <img src="assets/diego.jpg" alt="Diego" class="tileImage">
+            </div>
+        </li>
+        <li class="tile-case">
+            <div class="subGroup">
+                <div class="tile-primary-content">
+                    <h2>Sasha</h2>
+                </div>
+                <div class="tile-secondary-content">
+                    <h2>Sasha</h2>
+                    <p>Shy Dog,</br>
+                        Expert 'Good Girl'</p>
+                    <div class="socialButtons">
+                        <a href="https://photos.app.goo.gl/Fzz86g5yS9TJUFiT7" target="_blank">
+                          <i class="far fa-image"></i>
+                        </a>
+                    </div>
+                </div>
+                <img src="assets/sasha.jpg" alt="Sasha" class="tileImage">
+            </div>
+        </li>
+        <li class="tile-case">
+            <div class="subGroup">
+                <div class="tile-primary-content">
+                    <h2>Colorado</h2>
+                </div>
+                <div class="tile-secondary-content">
+                    <h2>Colorado</h2>
+                    <p>Photos from from wandering around our new state</p>
+                    <div class="socialButtons">
+                        <a href="https://photos.app.goo.gl/ZpBKKAgZu7HFTiNX9" target="_blank">
+                          <i class="far fa-image"></i>
+                        </a>
+                    </div>
+                </div>
+                <img src="assets/colorado.jpg" alt="Wandering around the West" class="tileImage">
+            </div>
+        </li>
+        <li class="tile-case">
+            <div class="subGroup">
+                <div class="tile-primary-content">
+                    <h2>Maryland</h2>
+                </div>
+                <div class="tile-secondary-content">
+                    <h2>Maryland</h2>
+                    <p>Photos from Maryland and DC</p>
+                    <div class="socialButtons">
+                        <a href="https://photos.app.goo.gl/UdyquQHR8vTZmvDm6" target="_blank">
+                          <i class="far fa-image"></i>
+                        </a>
+                    </div>
+                </div>
+                <img src="assets/maryland.jpg" alt="Where we are from" class="tileImage">
+            </div>
+        </li>
+    </ul>
+    <!-- <div class="footer">Style adapted from a codepen written by <a href="https://codepen.io/chrisgrabinski/pen/gpqtc" target="_blank">Christopher Grabiński</a> | Hosted in <a href="https://ipfs.io" target="_blank">IPFS</a> | 2018</div> -->
+</body>
 
 </html>
